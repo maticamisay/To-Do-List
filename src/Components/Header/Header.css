@@ -1,5 +1,5 @@
 .header{
-    height: 30vh;
+    height: 250px;
     background-image: url('https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_960_720.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     position:absolute;
     top:0;
     left:0;
-    height:30vh;
+    height:250px;
     width: 100%;
     background:rgba(255, 0, 0, 0.24);
     z-index: 1;
@@ -20,13 +20,17 @@
 
 .h1{
     z-index: 2;
-    background-color: #1d355770;
+    background-color: rgba(241, 250, 238,0.3);
     padding: 10px;
     border-radius: 10px;
     text-align: center;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    user-select: none;
+    font-size: 2rem;
+    position: relative;
+    top:50px;
 }
 
 .container{

@@ -1,4 +1,6 @@
 .TodoCounter-title{
     display: flex;
     justify-content:center;
+    font-size: 1.6rem;
+    user-select: none;
 }
